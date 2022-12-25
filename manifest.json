@@ -17,7 +17,7 @@
         "js": ["content_script_aozora.js"]
       },
       {
-        "matches": ["https://item.rakuten.co.jp/*","https://www.rakuten.co.jp/*"],
+        "matches": ["https://www.rakuten.co.jp/*"],
         "js": ["content_script_rakuten.js"]
       }
     ]
