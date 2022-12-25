@@ -21,3 +21,33 @@ for(let i = 0; i < left.length; i++){
   let e = left[i];
   e.style.display = 'none';
 }
+
+let pick_up = document.querySelectorAll("#sc_ad_pickup_normal");
+for(let i = 0; i < pick_up.length; i++){
+  let e = pick_up[i];
+  e.style.display = 'none';
+}
+
+let famous_shop = document.querySelectorAll("#sc_sidAdd_rBrand");
+for(let i = 0; i < famous_shop.length; i++){
+  let e =  famous_shop[i];
+  e.style.display = 'none';
+}
+
+let recommend = document.querySelectorAll(".ad-slideshow-existItemDisplay ri-main-contents");
+for(let i = 0; i < recommend.length; i++){
+  let e =  recommend[i];
+  e.style.display = 'none';
+}
+
+let time_sale = document.querySelectorAll("#sc_ad_timesale_normal");
+for(let i = 0; i < time_sale.length; i++){
+  let e =  time_sale[i];
+  e.style.display = 'none';
+}
+
+let r_mag = document.querySelectorAll("#sc_lidAdd_rmagazine");
+for(let i = 0; i < r_mag.length; i++){
+  let e =  r_mag[i];
+  e.style.display = 'none';
+}
