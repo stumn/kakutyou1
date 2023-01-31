@@ -46,9 +46,15 @@ for(let i = 0; i < time_sale.length; i++){
   e.style.display = 'none';
 }
 
-let r_mag = document.querySelectorAll("#sc_lidAdd_rmagazine");
+let r_mag = document.querySelectorAll("#sc_lidAdd_rmagazine"); //idだから＃を使う
 for(let i = 0; i < r_mag.length; i++){
   let e =  r_mag[i];
+  e.style.display = 'none';
+}
+
+let pubric_info = document.querySelectorAll(".group-section");
+for(let i = 0; i < pubric_info.length; i++){
+  let e = pubric_info[i];
   e.style.display = 'none';
 }
 
