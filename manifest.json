@@ -5,18 +5,6 @@
     "manifest_version": 3,
     "content_scripts": [
       {
-        "matches": ["https://tabelog.com/*"],
-        "js": ["content_script_taberogu.js"]
-      },
-      {
-        "matches":["https://outlook.live.com/*"],
-        "css":["mystyle.css"]
-      },
-      {
-        "matches": ["https://www.aozora.gr.jp/*"],
-        "js": ["content_script_aozora.js"]
-      },
-      {
         "matches": ["https://www.rakuten.co.jp/*"],
         "js": ["content_script_rakuten.js"]
       }
