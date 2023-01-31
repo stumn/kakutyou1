@@ -1,9 +1,4 @@
-function DeleteAttempt(){
-  if(!(delete_info)) setTimeout(delete_info, 500); // retry after 500 millisecconds
-}
-
-function delete_info(){
-  let big_ad = document.querySelectorAll("#bigBannerWidget");
+let big_ad = document.querySelectorAll("#bigBannerWidget");
 for(let i = 0; i < big_ad.length; i++){
   let e = big_ad[i];
   e.style.display = 'none';
@@ -57,15 +52,10 @@ for(let i = 0; i < r_mag.length; i++){
   e.style.display = 'none';
 }
 
-  let pubric_rakuten_info = document.querySelectorAll(".group-section"); //classだから.を使う
-  for(let i = 0; i < pubric_rakuten_info.length; i++){
-  let e = pubric_rakuten_info[i];
+let pubric_r_info = document.querySelectorAll(".group-section"); //classだから.を使う
+for(let i = 0; i < pubric_r_info.length; i++){
+  let e = pubric_r_info[i];
   e.style.display = 'none';
   }
-}
 
-// let element = document.createElement("button"); // <button></button> ができる
-// element.textContent = "Push Me!";               // <button>Push Me!</button> ができる
-// let target = document.querySelector("#create_and_append"); // 追加したい要素を見つけてくる
-// target.appendChild(element); // 追加する
 
