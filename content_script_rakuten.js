@@ -51,3 +51,5 @@ for(let i = 0; i < r_mag.length; i++){
   let e =  r_mag[i];
   e.style.display = 'none';
 }
+
+
