@@ -52,10 +52,16 @@ for(let i = 0; i < r_mag.length; i++){
   e.style.display = 'none';
 }
 
-let pubric_info = document.querySelectorAll(".group-section");
-for(let i = 0; i < pubric_info.length; i++){
-  let e = pubric_info[i];
+function DeleteAttempt(){
+  if(!(delete_info)) setTimeout(delete_info, 500); // retry after 500 millisecconds
+}
+
+function delete_info(){
+  let pubric_rakuten_info = document.querySelectorAll(".group-section"); //classだから.を使う
+  for(let i = 0; i < pubric_rakuten_info.length; i++){
+  let e = pubric_rakuten_info[i];
   e.style.display = 'none';
+}
 }
 
 // let element = document.createElement("button"); // <button></button> ができる
